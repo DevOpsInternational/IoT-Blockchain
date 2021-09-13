@@ -4,10 +4,10 @@
   "description": "First implementation of enhanced security in IoT using Blockchain",
   "main": "",
   "scripts": {
-    "build": "npm install",
+    "build": "node api.js && npm install",
     "test": "echo \"Error: no test specified\" && exit 1",
     "complie": "truffle compile",
-    "start": "ganche-cli"
+    "start": "node api.js && ganche-cli"
   },
   "author": "Salman Dabbakuti",
   "license": "ISC",
